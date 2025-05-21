@@ -1,0 +1,336 @@
+{
+    "Project Information": {
+        "Name": "IL_example",
+        "Folder Path": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example",
+        "Proxy Path": "none",
+        "Units": "Metric",
+        "Long Length Unit": "meters",
+        "Short Length Unit": "m",
+        "Big Short Length Unit": "km",
+        "Area Unit": "km^2",
+        "Small Area Unit": "m^2",
+        "Loading Unit": "kg/m^2",
+        "Density Unit": "kg/m^3",
+        "Weight Unit": "kg",
+        "Speed Unit": "m/s",
+        "Version": "0.8.0"
+    },
+    "Location": {
+        "Location Method": "Upload",
+        "Method Options": {
+            "Upload": {
+                "Path File": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example/boundary.geojson"
+            },
+            "Define": {
+                "Length": "0.0",
+                "Width": "0.0",
+                "Latitude": "0",
+                "Longitude": "0"
+            }
+        },
+        "QF Domain": {
+            "Nx": "204",
+            "Ny": "315",
+            "Nz": "59",
+            "SW Coordinate X": "-2049060.0",
+            "SW Coordinate Y": "2089044.0",
+            "Zone Letter": "Z",
+            "Zone Number": "1",
+            "QU Nz": "0"
+        },
+        "QS Domain": {
+            "QS Nx": "0",
+            "QS Ny": "0",
+            "QS Nz": "0",
+            "QS SW Coordinate X": "0",
+            "QS SW Coordinate Y": "0",
+            "QS Zone Letter": "1",
+            "QS Zone Number": "1",
+            "QS QU Nz": "0",
+            "QS Topography": "none",
+            "QS Horizontal Resolution": "100",
+            "QS dz": "5",
+            "QS Outter Geojson": "none",
+            "QS Domain Area": "0"
+        },
+        "Scalebar": "978.0",
+        "Domain Rotation": "24.29334135592933",
+        "BU Geojson": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example/ff.geojson",
+        "Padding Geojson": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example/ff_pad.geojson",
+        "Domain Geojson": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example/ff_domain.geojson",
+        "Domain Area": "0.263304",
+        "Burn Unit Area": "0.16324",
+        "Horizontal Resolution": "2.0",
+        "Boundary Padding Unify": "True",
+        "Boundary Padding North": "50.0",
+        "Boundary Padding South": "50.0",
+        "Boundary Padding East": "50.0",
+        "Boundary Padding West": "50.0"
+    },
+    "Fuels": {
+        "Fuels Method": "FastFuels",
+        "FastFuels": {
+            "Surface Moisture": "15",
+            "Canopy Moisture": "100",
+            "Distribution Method": "uniform",
+            "Trees in Padding": "1",
+            "FastFuels API": "",
+            "TPA": "804.6212742685262",
+            "Basal Area": "46.31746916417746",
+            "Treatment List": {},
+            "Treelist": "none"
+        },
+        "LANL Trees": {
+            "Use Grass": "1.0",
+            "Use Litter": "0.0",
+            "Bulk Density": "1.4",
+            "Moisture": "6",
+            "Depth": "0.27",
+            "Shading Constant": "5",
+            "Litter Shading Constant": "5",
+            "Litter Bulk Density": "4.667",
+            "Litter Moisture": "6.0",
+            "Litter Sizescale": "0.0005",
+            "Litter Depth": "0.06",
+            "DUET windprofile": "2",
+            "DUET densitythresh": "1.5",
+            "DUET YearsSinceBurn": "1",
+            "DUET StepsPerYear": "1",
+            "DUET relhum": "0.1",
+            "DUET grassstep": "1",
+            "DUET iFIAspecies": "1",
+            "DUET Number of FIA Species": "1",
+            "DUET FIA": {
+                "FIA 1": "106"
+            },
+            "DUET randomwinds": "2",
+            "Treelist Method": "No Trees",
+            "Treelist Path": "none",
+            "Treelist Name": "None",
+            "Treelist ndatax": "0",
+            "Treelist ndatay": "0",
+            "Tree Random Placement": "0",
+            "Forest Painter": {
+                "Species 1": {
+                    "Species 1 Label": "Species 1",
+                    "Species 1 Height": 10.0,
+                    "Species 1 Canopy Diameter": 3.0,
+                    "Species 1 Canopy Base Height": 4.0,
+                    "Species 1 Height to Canopy Diameter": 6.0,
+                    "Species 1 Canopy Bulk Density": 0.1,
+                    "Species 1 Canopy Fuel Moisture": "100",
+                    "Species 1 Tree Variability": "0",
+                    "Species 1 xy": []
+                }
+            }
+        },
+        "Fuel Edits": {
+            "Edits Geojson": "none",
+            "Polygon Number": "0"
+        },
+        "Topography": {
+            "Topography Path": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example/fastfuels_topo.dat",
+            "Topography Name": "fastfuels_topo.dat",
+            "Ideal Method": "5",
+            "Ideal Topography": {
+                "Canyon Start X": "10",
+                "Canyon Start Y": "10",
+                "Canyon Slope": "0",
+                "Canyon Standard Deviation": "20",
+                "Canyon Vertical Offset": "6",
+                "Coshill Aspect": "10",
+                "Coshill Height": "1",
+                "Gaussian Hill Center X": "0",
+                "Gaussian Hill Center Y": "0",
+                "Gaussian Max Height": "30",
+                "Gaussian Standard Deviation": "5",
+                "Hill Pass Height": "0",
+                "Hill Pass Location": "10",
+                "Sinusoid Period": "150",
+                "Sinusoid Amplitude": "5",
+                "Slope Mesa Axis": "0",
+                "Slope Mesa Value": "0.5",
+                "Slope Mesa Flat Fraction": "0"
+            }
+        }
+    },
+    "Meteorology": {
+        "Meteorology Method": "Manual",
+        "Update Number": "1",
+        "Sensor Count": "1",
+        "Anemometer File Path": "none",
+        "HRRR Proxy": "none",
+        "Get Weather Data": "0",
+        "Sensor Dictonary": {
+            "sensor1": {
+                "sensor1 x location": "0",
+                "sensor1 y location": "0",
+                "sensor1 Height Number": "1",
+                "sensor1 updates": {
+                    "sensor1 1": {
+                        "sensor1 update1 BL": "1",
+                        "sensor1 update1 roughness": "0.01",
+                        "sensor1 update1 1/L": "0.0",
+                        "sensor1 update1 ht1": {
+                            "sensor1 update1 ht1 ht": "10.0",
+                            "sensor1 update1 ht1 spd": "6.0",
+                            "sensor1 update1 ht1 dir": "270"
+                        }
+                    }
+                }
+            }
+        },
+        "Epoch Dictonary": {
+            "1": "02-22-2024 14:00:00"
+        }
+    },
+    "Ignitions": {
+        "Ignition Method": "Driptorch",
+        "Ignition Geojson": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example/ignition_pattern.json",
+        "Firing Unit Geojson": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example/firing_domain.geojson",
+        "Blackline Geojson": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example/ff_blackline.geojson",
+        "Ignition Name": "/Users/leticia/Documents/Mac_GUI_feb/GUI/projects/IL_example/ignite.dat",
+        "Final Ignition Number": "300",
+        "Buffer": {
+            "Firing Direction": "270",
+            "Control Width": "0.0",
+            "Blackline": "0.0",
+            "Remove Fuels From Buffer": "True"
+        },
+        "Driptorch": {
+            "Driptorch Method": "Basic",
+            "Driptorch Basic Method Settings": {
+                "Number of Igniters": "3",
+                "Igniter Settings": {
+                    "Igniter 1": {
+                        "Igniter1 Velocity": "1.5",
+                        "Igniter1 Gap": "10",
+                        "Igniter1 Dash": "2"
+                    },
+                    "Igniter 2": {
+                        "Igniter2 Velocity": "1.5",
+                        "Igniter2 Gap": "10",
+                        "Igniter2 Dash": "2"
+                    },
+                    "Igniter 3": {
+                        "Igniter3 Velocity": "1.5",
+                        "Igniter3 Gap": "10",
+                        "Igniter3 Dash": "2"
+                    }
+                },
+                "Technique": "Strip Fire",
+                "Technique Settings": {
+                    "Stagger Distance": "10.0",
+                    "Distance Between Igniters": "20.0",
+                    "Spacing Between Passes": "0.0",
+                    "Time Delay": "0.0",
+                    "Offset Distance": "0.0"
+                }
+            },
+            "Driptorch Advanced Method Settings": {
+                "Driptorch Advanced Number of Polygons": "0",
+                "Driptorch Advanced Polygon File": "none"
+            }
+        },
+        "Custom": {
+            "Speeds": {
+                "Walking": "1.5",
+                "ATV": "3.5",
+                "Drone": "13.4",
+                "Helo": "22.4"
+            },
+            "Number of Paths": "0",
+            "Path Settings": {}
+        }
+    },
+    "Simulate": {
+        "Timings": {
+            "Start Time": "02-22-2024 14:00:00",
+            "UNIX Start Time": "1708635600",
+            "Run Time": "600"
+        },
+        "Runtime Options": {
+            "Fire Time Steps": "1 (s)",
+            "Wind Time Steps": "1 (s)",
+            "CPU": "1",
+            "Adaptive Window": "1.0",
+            "Patch Gap Flag": "0",
+            "Size Scale Flag": "0",
+            "PrintFire": "60",
+            "PrintWind": "60",
+            "PrintAvgER": "60",
+            "PrintAvgWind": "60"
+        },
+        "Input Files": {
+            "Fuel Density": "treesrhof.dat",
+            "Fuel Moisture": "treesmoist.dat",
+            "Fuel Depth": "treesfueldepth.dat",
+            "Fuel Size Scale": "treesss.dat"
+        },
+        "Outputs": {
+            "Output Step": "1 (min)",
+            "Output EtA": "1",
+            "Output Reaction Rate": "0",
+            "Output Fuel Density": "1",
+            "Output Fuel Moisture": "1",
+            "Output Mass Burnt": "0",
+            "Output Winds (u,v,w,sigma)": "0",
+            "Output Instant Winds": "1",
+            "Output Averaged Winds": "0",
+            "Output Emissions": "No output",
+            "Output Plume Trajectories": "0",
+            "Output Firebrand Trajectories": "0",
+            "Output Thermal Radiation": "0",
+            "Output Surface Fire Intensity": "0"
+        },
+        "Simulation Run": {
+            "QUIC-Fire": "1.0",
+            "QUIC-Smoke": "0.0"
+        }
+    },
+    "Analyze": {
+        "Pyvista": {
+            "Movie Name": "IL_example",
+            "Fire Tracking": "0.0",
+            "Subplots": "1.0",
+            "Camera Tracking X": "0",
+            "Camera Tracking Y": "0",
+            "Camera Tracking Z": "0",
+            "Camera Focus X": "0",
+            "Camera Focus Y": "0",
+            "Camera Focus Z": "0",
+            "Camera Normal X": "0",
+            "Camera Normal Y": "0",
+            "Camera Normal Z": "0"
+        },
+        "Drawfire": {
+            "Vertical slices": "0",
+            "Plots Choice": {
+                "Plot EtA": "0.0",
+                "Plot Reaction Rate": "0.0",
+                "Plot Fuel Density": "0.0",
+                "Plot Fuel Moisture": "0.0",
+                "Plot Mass Burnt": "0.0",
+                "Plot FireCA Winds": "0.0",
+                "Plot Instant Winds": "0.0",
+                "Plot Averaged Winds": "0.0",
+                "Plot Emissions": "0.0"
+            }
+        },
+        "Reporter": {
+            "Reporter GPS": "0.0",
+            "Reporter Coordinates": "0.0",
+            "Reporter Topography": "0.0",
+            "Reporter 2D Fuel Maps": "0.0",
+            "Reporter Fuel Statistics": "0.0",
+            "Reporter Sensor Inputs": "0.0",
+            "Reporter Ignition Details": "0.0",
+            "Reporter Fuel Consumption": "0.0",
+            "Reporter Moisture Loss": "0.0",
+            "Reporter EtA": "0.0",
+            "Reporter Slop-Overs": "0.0",
+            "GPS": "1",
+            "Coordinates": "1"
+        }
+    }
+}
