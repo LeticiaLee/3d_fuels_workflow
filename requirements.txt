@@ -3,3 +3,4 @@ geopandas==1.0.1
 numpy==2.2.6
 scipy==1.15.3
 zarr==3.0.8
+python==3.11.7
